@@ -1,6 +1,6 @@
 # Portfólio — Deyvson Lucas
 
-Portfólio pessoal de **Deyvson Lucas**, Desenvolvedor Full Stack. Página única (single-page) moderna, com tema dark, animações suaves e design responsivo, apresentando projetos, habilidades e formas de contato.
+Portfólio pessoal, Desenvolvedor Full Stack. Página única (single-page) moderna, com tema dark, animações suaves e design responsivo, apresentando projetos, habilidades e formas de contato.
 
 🔗 **Acesse:** abra o arquivo [`index.html`](index.html) no navegador.
 

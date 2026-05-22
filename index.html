@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio de Deyvson Lucas — Desenvolvedor Full Stack (Java, Spring, Python, Django, React). Sistemas, PDV, catálogos e plataformas web modernas." />
+  <meta name="author" content="Deyvson Lucas" />
+  <meta name="keywords" content="Desenvolvedor Full Stack, Java, Spring, Python, Django, React, Deyvson Lucas" />
+  <meta property="og:title" content="Deyvson Lucas — Desenvolvedor Full Stack" />
+  <meta property="og:description" content="Portfólio de projetos: sistemas, PDV, catálogos e plataformas web. Java, Spring, Python, Django e React." />
+  <meta property="og:type" content="website" />
+  <title>Deyvson Lucas — Desenvolvedor Full Stack</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Fundo animado -->
+  <div class="bg-glow" aria-hidden="true">
+    <span class="orb orb--1"></span>
+    <span class="orb orb--2"></span>
+    <span class="orb orb--3"></span>
+  </div>
+
+  <!-- Navbar -->
+  <header class="nav" id="nav">
+    <a href="#hero" class="nav__brand">
+      <span class="nav__logo">DL</span>
+      <span class="nav__name">Deyvson Lucas</span>
+    </a>
+    <nav class="nav__links" aria-label="Navegação principal">
+      <a href="#sobre">Sobre</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#skills">Habilidades</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <a href="#contato" class="btn btn--sm">Vamos conversar</a>
+    <button class="nav__burger" id="burger" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="hero__inner reveal">
+        <span class="badge">
+          <span class="badge__dot"></span> Disponível para novos projetos
+        </span>
+        <h1 class="hero__title">
+          Olá, eu sou <span class="grad">Deyvson Lucas</span><br />
+          Desenvolvedor Full Stack
+        </h1>
+        <p class="hero__sub">
+          Crio aplicações web e sistemas sob medida — do front-end ao back-end com
+          <strong>Java, Spring, Python e Django</strong>. De sistemas de PDV a
+          catálogos e plataformas completas, com foco em performance, código limpo
+          e resultados reais para o negócio.
+        </p>
+        <div class="hero__cta">
+          <a href="#projetos" class="btn">Ver projetos</a>
+          <a href="#contato" class="btn btn--ghost">Entrar em contato</a>
+        </div>
+        <div class="hero__tags">
+          <span>Java</span><span>Spring</span><span>Python</span><span>Django</span><span>React</span><span>Node.js</span>
+        </div>
+      </div>
+      <div class="hero__photo reveal">
+        <div class="hero__photo-frame">
+          <img src="assets/deyvson.jpg" alt="Foto de Deyvson Lucas"
+               onerror="this.parentElement.classList.add('hero__photo-frame--fallback');this.outerHTML='<span class=&quot;hero__photo-initials&quot;>DL</span>';" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Estatísticas -->
+    <section class="stats" aria-label="Estatísticas">
+      <div class="stat reveal">
+        <span class="stat__num" data-target="4" data-suffix="+">0</span>
+        <span class="stat__label">Projetos entregues</span>
+      </div>
+      <div class="stat reveal">
+        <span class="stat__num" data-target="100" data-suffix="%">0</span>
+        <span class="stat__label">Foco em performance</span>
+      </div>
+      <div class="stat reveal">
+        <span class="stat__num" data-target="3" data-suffix="+">0</span>
+        <span class="stat__label">Anos de experiência</span>
+      </div>
+      <div class="stat reveal">
+        <span class="stat__num" data-target="24" data-suffix="/7">0</span>
+        <span class="stat__label">Dedicação ao cliente</span>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section class="section" id="sobre">
+      <div class="section__head reveal">
+        <span class="eyebrow">01 — Sobre mim</span>
+        <h2>Transformo ideias em produtos digitais</h2>
+      </div>
+      <div class="about reveal">
+        <div class="about__text">
+          <p>
+            Sou desenvolvedor web focado em construir experiências digitais que
+            funcionam de verdade. Trabalho ponta a ponta: entendo o problema do
+            cliente, desenho a solução e entrego um produto pronto para gerar valor.
+          </p>
+          <p>
+            Já desenvolvi sistemas comerciais com módulo de PDV, catálogos de
+            serviços, plataformas de busca e sites institucionais. Gosto de
+            código organizado, interfaces intuitivas e tudo rodando rápido em
+            qualquer dispositivo.
+          </p>
+          <ul class="about__list">
+            <li>Desenvolvimento full stack (front + back)</li>
+            <li>Interfaces responsivas e acessíveis</li>
+            <li>Sistemas sob medida para negócios</li>
+            <li>Deploy, hospedagem e manutenção</li>
+          </ul>
+        </div>
+        <aside class="about__card">
+          <div class="about__avatar">
+            <img src="assets/deyvson.jpg" alt="Foto de Deyvson Lucas"
+                 onerror="this.parentElement.classList.add('about__avatar--fallback');this.remove();" />
+          </div>
+          <h3>Deyvson Lucas</h3>
+          <p class="about__role">Desenvolvedor Full Stack</p>
+          <div class="about__chips">
+            <span>Frontend</span><span>Backend</span><span>Java</span><span>Spring</span>
+          </div>
+          <a href="#contato" class="btn btn--full">Contratar</a>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Projetos -->
+    <section class="section" id="projetos">
+      <div class="section__head reveal">
+        <span class="eyebrow">02 — Projetos</span>
+        <h2>Trabalhos selecionados</h2>
+        <p class="section__lead">
+          Uma seleção de projetos reais entregues para clientes e negócios.
+        </p>
+      </div>
+
+      <div class="grid">
+        <!-- Projeto 1 -->
+        <article class="card reveal">
+          <div class="card__media card__media--1">
+            <span class="card__badge">Sistema · PDV</span>
+            <span class="card__mock">GLTEC</span>
+          </div>
+          <div class="card__body">
+            <h3>GLTEC Informática</h3>
+            <p>
+              Plataforma para assistência e loja de informática, com módulo de
+              <strong>PDV Expresso</strong> para vendas rápidas no balcão.
+            </p>
+            <div class="card__stack">
+              <span>Next.js</span><span>React</span><span>Spring Boot</span><span>PDV</span>
+            </div>
+            <div class="card__links">
+              <a href="https://gltec-informatica.vercel.app/" target="_blank" rel="noopener">
+                Ver site <span aria-hidden="true">↗</span>
+              </a>
+              <a href="https://gltec-informatica.vercel.app/pdv-expresso" target="_blank" rel="noopener" class="card__link--alt">
+                Abrir PDV <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Projeto 2 -->
+        <article class="card reveal">
+          <div class="card__media card__media--2">
+            <span class="card__badge">Plataforma</span>
+            <span class="card__mock">Busque Rápido</span>
+          </div>
+          <div class="card__body">
+            <h3>Busque Rápido</h3>
+            <p>
+              Plataforma de busca para conectar usuários a serviços e produtos
+              de forma rápida e direta, com domínio próprio.
+            </p>
+            <div class="card__stack">
+              <span>Web</span><span>Busca</span><span>Responsivo</span>
+            </div>
+            <div class="card__links">
+              <a href="http://busquerapido.com.br/" target="_blank" rel="noopener">
+                Ver site <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Projeto 3 -->
+        <article class="card reveal">
+          <div class="card__media card__media--3">
+            <span class="card__badge">Catálogo</span>
+            <span class="card__mock">Catálogo GLTEC</span>
+          </div>
+          <div class="card__body">
+            <h3>Catálogo de Serviços GLTEC</h3>
+            <p>
+              Catálogo digital de serviços, apresentando soluções e preços de
+              forma organizada e fácil de navegar.
+            </p>
+            <div class="card__stack">
+              <span>Next.js</span><span>Catálogo</span><span>UI</span>
+            </div>
+            <div class="card__links">
+              <a href="https://catalogo-de-servicos-gltec.vercel.app/" target="_blank" rel="noopener">
+                Ver site <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Projeto 4 -->
+        <article class="card reveal">
+          <div class="card__media card__media--4">
+            <span class="card__badge">Site · Negócio</span>
+            <span class="card__mock">Salão Izzas</span>
+          </div>
+          <div class="card__body">
+            <h3>Salão Izzas</h3>
+            <p>
+              Site institucional para salão de beleza, com identidade visual
+              própria e domínio personalizado para fortalecer a marca.
+            </p>
+            <div class="card__stack">
+              <span>Web</span><span>Institucional</span><span>Branding</span>
+            </div>
+            <div class="card__links">
+              <a href="http://salaoizzas.com.br/" target="_blank" rel="noopener">
+                Ver site <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section class="section" id="skills">
+      <div class="section__head reveal">
+        <span class="eyebrow">03 — Habilidades</span>
+        <h2>Tecnologias & ferramentas</h2>
+        <p class="section__lead">Stack que uso para construir do front ao deploy.</p>
+      </div>
+
+      <div class="skills reveal">
+        <div class="skill-group">
+          <h3>Back-end</h3>
+          <div class="skill-tags">
+            <span>Java</span><span>Spring</span><span>Spring Boot</span>
+            <span>Python</span><span>Django</span><span>Node.js</span>
+            <span>APIs REST</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Front-end</h3>
+          <div class="skill-tags">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+            <span>React</span><span>Next.js</span><span>Tailwind</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Banco & Ferramentas</h3>
+          <div class="skill-tags">
+            <span>SQL</span><span>PostgreSQL</span><span>Git</span>
+            <span>GitHub</span><span>Docker</span><span>Vercel</span>
+            <span>VS Code</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="section section--contact" id="contato">
+      <div class="contact reveal">
+        <div class="section__head">
+          <span class="eyebrow">04 — Contato</span>
+          <h2>Vamos construir algo juntos</h2>
+          <p class="section__lead">
+            Tem um projeto em mente? Me chame e vamos tirar a ideia do papel.
+          </p>
+        </div>
+
+        <div class="contact__actions">
+          <a class="contact__btn" href="mailto:deyvlucas02@gmail.com">
+            <span class="contact__icon">✉</span>
+            <span>
+              <strong>Email</strong>
+              deyvlucas02@gmail.com
+            </span>
+          </a>
+          <a class="contact__btn" href="https://wa.me/5587991958156?text=Ol%C3%A1%20Deyvson!%20Vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto." target="_blank" rel="noopener">
+            <span class="contact__icon">💬</span>
+            <span>
+              <strong>WhatsApp</strong>
+              (87) 99195-8156
+            </span>
+          </a>
+          <a class="contact__btn" href="https://github.com/" target="_blank" rel="noopener">
+            <span class="contact__icon">⌘</span>
+            <span>
+              <strong>GitHub</strong>
+              Veja meu código
+            </span>
+          </a>
+        </div>
+
+        <form class="form" id="contactForm" novalidate>
+          <div class="form__row">
+            <label>
+              Nome
+              <input type="text" name="nome" placeholder="Seu nome" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="voce@email.com" required />
+            </label>
+          </div>
+          <label>
+            Mensagem
+            <textarea name="mensagem" rows="4" placeholder="Conte sobre seu projeto..." required></textarea>
+          </label>
+          <button type="submit" class="btn btn--full">Enviar mensagem</button>
+          <p class="form__status" id="formStatus" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year"></span> Deyvson Lucas — Desenvolvedor Web</span>
+    <a href="#hero">Voltar ao topo ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
